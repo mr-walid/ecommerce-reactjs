@@ -1,0 +1,131 @@
+
+
+.sign {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url('../../img/Login.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.style-top{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 430px;
+    height: 300px;
+    border-radius: 30% 0 40% 20% ;
+    background-color: rgb(99, 191, 233);
+}
+.style-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 430px;
+    height: 300px;
+    border-radius: 30% 10% 40% 0% ;
+    background-color:rgb(99, 191, 233);
+}
+
+.form-sign{
+    width: 400px;
+    height: 70vh;
+    border-radius: 20%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    z-index: 1;
+   
+}
+.form-sign input{
+    width: 85%;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+}
+.form-sign h2{
+    font-size: 35px;
+}
+.form-sign .login{
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    border: 0.5px solid rgb(104, 7, 231);
+    border-radius: 30%;
+    background-color: rgb(58, 58, 240);
+    color: whitesmoke;
+    transition: all 0.3s ease-in;
+}
+.form-sign .login:hover{
+    background-color: cornflowerblue;
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 2px 3px pink;
+    margin-bottom: 10px ;
+}
+.dont {
+    font-size: 15px;
+    font-weight: 800;
+}
+.or{
+    font-weight: 800;
+}
+.sign-google{
+    width: 250px;
+    height: 50px;
+    color: rgb(44, 166, 236);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(115, 115, 218);
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: all 0.3s ease-in;
+}
+.sign-google:hover{
+    box-shadow: 3px 3px 3px 3px rgb(100, 100, 230);
+}
+.line{
+    width: 116px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 491px;
+    left: 500px;
+}
+.line-1{
+    width: 116px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 491px;
+    right: 500px;
+}
+/* --------------------Media--------------------------- */
+@media screen and (max-width: 1100px) {
+
+       
+        .style-bottom,.style-top{
+              width: 200px;
+        } 
+
+ }
+ @media screen and (max-width: 800px) {
+    .style-bottom,.style-top{
+        display: none;
+    }
+   
+       
+    
+
+}
+
